@@ -1,0 +1,34 @@
+<!-- search.component.html -->
+<div>
+    <h2>Search</h2>
+    <input type="text" [(ngModel)]="searchQuery" placeholder="Enter search query...">
+    <button (click)="search()">Search</button>
+  </div>
+  
+  <div *ngIf="searchResults">
+    <table>
+      <thead>
+        <tr>
+            <th>Category #</th>
+            <th>Price</th>
+            <th>Size</th>
+            <th>Std Pkg</th>
+            <th>Type</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <!-- *ngFor="let result of searchResults" -->
+          <!-- <td>{{ searchResults.cat_no | json }}</td> -->
+          <!-- <td>{{ result.price }}</td>
+          <td>{{ result.size }}</td>
+          <td>{{ result.std_pkg }}</td>
+          <td>{{ result.type }}</td> -->
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!-- <div *ngIf="searchResults.length === 0 && searchQuery">
+    <p>No results found.</p>
+  </div> -->
+  
