@@ -14,7 +14,7 @@ export interface PeriodicElement {
 }
 
 const ELEMENT_DATA = [
-  {cat_no: "CS94106", mrp: '955', std_pkg: 20, type: 'MNX 9'},
+  {cat_no: "CS94106", mrp: '955', std_pkg: 20, type: '3 Pole Power Contactors - MNX-9A (AC-3) & 25A (AC-1)'},
   {cat_no: "CS94107", mrp: '1100', std_pkg: 10, type: 'MNX 19'},
   {cat_no: "CS94108", mrp: '1800', std_pkg: 30, type: 'MNX 20'},
   {cat_no: "CS94109", mrp: '500', std_pkg: 40, type: 'MNX 21'},
